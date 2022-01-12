@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ascii Art Web</title>
+    <link rel="stylesheet" href="/PageTemplate/style.css" media="all">
+</head>
+
+
+<body>
+    <div class="wrapper">
+        <div ><h1 class="card-title">ASCII-ART-WEB</h1></div> 
+    <div class="container">   
+        <div class="card">
+            <div class="inner-box"> 
+                <form action="ascii-art" class="card-form" method="post" autocomplete="on">                
+                    <input type="radio" name="banner" value="standard" id="btnradio1" checked id="standard">
+                    <label for="btnradio1">standard</label>
+                    <input type="radio" name="banner" value="shadow" id="btnradio2" id="shadow">
+                    <label for="btnradio2">shadow</label>
+                    <input type="radio" name="banner" value="thinkertoy" id="btnradio3" id="thinkertoy">
+                    <label for="btnradio3">thinkertoy</label>
+                    <div class="input">
+                        <textarea placeholder="Text input" type="text" class="input-field" name="data" id="input"
+                            required></textarea>
+                    </div>   
+                    <input type="submit" name="buttons" value="Submit">
+                    <input type="submit" name="buttons" value="Download">
+                </form>          
+            </div>      
+        </div>
+    </div>
+    <div class="output">
+        <pre class="o">{{ . }} </pre>
+    </div>
+</div>
+</body>
+</html>

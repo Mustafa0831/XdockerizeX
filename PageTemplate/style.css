@@ -1,0 +1,141 @@
+ * {
+     margin-top: 0;
+     padding: 0;
+ }
+ 
+ .container {
+     width: 100%;
+     background: rgb(187, 187, 245);
+     color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .output {
+     text-align: center;
+     overflow: auto;
+     color: rgba(51, 50, 50, 0.64);
+ }
+ 
+ .wrapper {
+     background: rgb(187, 187, 245);
+     text-align: center;
+     height: 99vh;
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    }
+ 
+ .input-field {
+    font-family: zillaslab,palatino,"Palatino Linotype",serif;
+     resize: none;
+     width: 100%;
+     max-width: 500px;
+     background: transparent;
+     border: 1px so standard shadow thinkertoylid #fff;
+     margin-top: 35px;
+     margin-bottom: 15px;
+     height: 220px;
+     border-radius: 20px;
+     padding: 0 10px;
+     box-sizing: border-box;
+     outline: none;
+     text-align: center;
+     color: #fff;
+ }
+ 
+ @media only screen and (width: 300px) {
+     textarea,
+     select {
+         margin: auto;
+         text-align: center;
+         font-size: medium;
+         width: 120px;
+     }
+     input[type=submit] {
+         font-size: small;
+         width: 120px;
+     }
+ }
+ 
+ .card {
+     border-radius: 20px;
+     width: 900px;
+     height: 350px;
+     box-shadow: 0 0 40px 20px rgb(0, 0, 0, 0.26);
+ }
+ 
+ .inner-box {
+     position: relative;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+     padding: 10px;
+     background: rgb(0, 0, 0);
+     background: rgb(146, 129, 240);
+ }
+ 
+ .inner-box input[type=submit] {
+     width: 100%;
+     padding: 8px;
+     margin-left: auto;
+     margin-right: auto;
+     border: medium;
+     opacity: .7;
+     max-width: 100px;
+     border-radius: 20px;
+     color: rgb(217, 255, 0);
+     background: rgb(29, 20, 145);
+     letter-spacing: 0.04em;
+     text-transform: uppercase;
+     cursor: pointer;
+     display: inline-block;
+     vertical-align: middle;
+     box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+     backface-visibility: hidden;
+     transition-duration: 0.2s;
+     transition-property: transform;
+     transition-timing-function: ease-out;
+ }
+ 
+ .inner-box input[type=submit]:hover,
+ .inner-box input[type=submit]:focus,
+ .inner-box input[type=submit]:active {
+     transform: translateY(-8px);
+ } 
+ 
+ .inner-box input {
+     margin-bottom: 10px;
+ }
+ 
+ .card-front,
+ .card-back {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     background-position: center;
+     background-size: cover;
+     box-sizing: border-box;
+ }
+
+
+.container2 {
+    font-size:xx-large;
+    font-family: zillaslab,palatino,"Palatino Linotype",serif;
+}
+
+
+body{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(187, 187, 245);
+}
